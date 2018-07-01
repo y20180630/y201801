@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  mini.web:
+    image: mini.web
+    build:
+      context: .
+      dockerfile: Mini.Web/Dockerfile
